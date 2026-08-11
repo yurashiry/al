@@ -1,0 +1,63 @@
+:root {
+    --main-color: #74b9ff;
+    --accent-color: #9b59b6;
+    --secondary-color: #e67e22;
+    --bg-color: #ecf0f1;
+    --text-color: #34495e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background: var(--main-color);
+    padding: 20px;
+}
+
+.main-content {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    background: var(--bg-color);
+    height: 100vh;
+}
+
+.content {
+    padding-left: 280px;
+    padding-right: 320px;
+    flex: 1;
+}
+
+.right-sidebar {
+    position: fixed;
+    right: 0;
+    width: 300px;
+    background: var(--bg-color);
+    height: 100vh;
+    padding: 20px;
+}
+
+.btn-write, .btn-appointment {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 15px;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
