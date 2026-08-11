@@ -1,0 +1,17 @@
+document.addEventListener('DOMContentLoaded', () => {
+    // Инициализация календаря
+    const appointmentButton = document.querySelector('.btn-appointment');
+    
+    appointmentButton.addEventListener('click', () => {
+        // Здесь логика открытия календаря
+        alert('Скоро добавим функционал календаря');
+    });
+
+    // Обработка кнопки "Написать мне"
+    const writeButton = document.querySelector('.btn-write');
+    
+    writeButton.addEventListener('click', () => {
+        // Здесь логика открытия мессенджеров
+        alert('Выберите мессенджер для связи');
+    });
+});
